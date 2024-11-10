@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial' sans-serif;
+    background-color: rgb(222, 116, 11);
+    margin:0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color:rgb(236, 245, 245) ;
+    width:80% ;
+    margin: 0 auto;
+    border-radius:10px ;
+    box-shadow: 0 0 20px black (0, 0, 0, 0.1);
+}
+
+.left-section {
+    background-color: rgb(121, 177, 211);
+    color: rgb(240, 229, 229);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(9, 228, 9);
+}
+
+.profile-picture {
+width:150px ;
+height: 150px; ;
+margin: 10%;
+border-radius: 50%;
+border:5px solid rgb(9, 250, 45) ;
+margin-bottom: 20px ;
+}
+
+h1 {
+    font-size: 24px;
+    margin:10px 0 ;
+    margin-bottom:30px ;
+    text-align:center ;
+}
+
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px ;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(4, 233, 72);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ .right-section {
+    padding: 20px;
+    width: 65%;
+ }
